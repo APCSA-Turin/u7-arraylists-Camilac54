@@ -38,9 +38,16 @@ public class Runner {
         // for (int i = words.size() - 1; i >= 0; i --) {
         //     System.out.println(words.get(i));
         // }
+     
+        boolean letter = true;
         int i = 0;
-        while (i < words.size()) {
+        while (letter) {
+            if (words.get(i).indexOf("h") != -1) {
+                letter = false;
+                break;
+            }
+            System.out.println(words.get(i));
+            i ++;
         }
-
     }
 }
