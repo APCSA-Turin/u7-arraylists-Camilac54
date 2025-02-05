@@ -1,5 +1,4 @@
 package Lab1;
-import java.util.ArrayList;
 
 public class CarRunner {
     public static void main(String[] args) {
